@@ -2,7 +2,12 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return render(request,'core/index.html')
+    datos = {
+        "nombre": "Vero",
+        "rol": "Tutora",
+    }
+    return render(request,'core/index.html', context=datos)
+# core/views.py
 
 def saludar(request):
     return HttpResponse("¡Hola desde Django!")
