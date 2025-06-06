@@ -6,7 +6,7 @@ Comision 75905
 
 Profesor: Estevan H. Acevedo
 
-[LinkedIn]()
+[LinkedIn](linkedin.com/in/esteban-acevedo-aberastain)
 
 ## Alumno
 
